@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+display: flex;
+background-color: white;
+
+text-align: center;
+padding: 20px;
+
+}
+header img {
+    
+    width: auto;
+}
+h1{
+    font-size: 3em;
+}
+main{
+    background-color:aliceblue;
+    padding: 30px;
+}
+.contenitore{
+    margin:auto;
+    width: 60%;
+    background-color: white;
+    padding: 60px;
+    position:relative;
+    padding-top:100px;
+
+}
+.contenitore h3{
+    font-size: 1em;
+    margin-bottom:7px;
+}
+.contenitore section{
+    margin-bottom: 40px;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+nav{
+    border-bottom:1px solid lightgray;
+    position:absolute;
+    width: 100%;
+    left:0;
+    padding:20px 0px;
+    top:0;
+    padding-left:50px;
+}
+.primobottone{
+    background-color:lightskyblue ;
+    border-radius: 7px;
+    border:none;
+    width: 100px;
+    height: 30px;
+    color:white;
+    
+}
+.secondobottone{
+    background-color:whitesmoke;
+    border-radius: 7px;
+    border:none;
+    width: 100px;
+    height: 30px;
+    color:rgb(157, 155, 155);
+    border:1px solid rgb(157, 155, 155)
+}
+.check{
+    width: 10px;
+    height: 10px;
+    font-size: 0.5em;
+    color:green;
+    border:1px solid green;
+    border-radius: 100%;
+    padding:5px;
+}
+.x{
+    color:red;
+}
+#bottoneradio{
+    border-radius: 15px;
+    border: 0;
+    width: 70px;
+    height: 20px;
+    color:white;
+    }
+
+.editoriale{
+background-color: rgb(0, 140, 255);
+}
+.q1{
+background-color: blueviolet;
+}
+.recruting{
+background-color: green;
+}
+.mobile{
+background-color: orange;
+}
+.website{
+background-color: palevioletred;
+}
+.sales{
+background-color: greenyellow;
+}
